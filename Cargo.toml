@@ -1,0 +1,15 @@
+[package]
+name = "fadex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11", features = ["json", "gzip", "brotli", "deflate"] }
+scraper = "0.13"
+tokio-postgres = { version = "0.7", features = ["runtime"] }
+bb8 = "0.7"
+bb8-postgres = "0.7"
+url = "2.3"
+lazy_static = "1.4" 
+
